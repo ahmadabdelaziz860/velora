@@ -26,7 +26,8 @@ RETURNS:'returns.html',
 };
 const ROUTE = {
   home:CFG.HOME, shop:CFG.SHOP, account:CFG.ACCOUNT,
-  wishlist:CFG.WISHLIST, track:CFG.TRACK, checkout:CFG.CHECKOUT
+  wishlist:CFG.WISHLIST, track:CFG.TRACK, checkout:CFG.CHECKOUT,
+  returns:CFG.RETURNS
 };
 const PAGE = (location.pathname.split('/').pop() || CFG.HOME).toLowerCase();
 const HOME_ALIAS = /^(index|home|velova|velora)\.html/i;
