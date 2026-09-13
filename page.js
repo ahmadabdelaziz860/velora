@@ -139,8 +139,7 @@ returns:{
                en:['The item is unused, in original condition, with tags attached','Underwear and earrings are non-returnable for hygiene reasons','Heavily discounted items are eligible for exchange only','The order invoice or order number is required']}},
     {t:'h',v:{ar:'إزاي بيحصل',en:'How it works'}},
     {t:'ul',v:{ar:['تقدّم طلب الاسترجاع من الموقع برقم الأوردر وسبب الاسترجاع','بنراجع الطلب ونتواصل معاك لتحديد ميعاد الاستلام','يتم فحص القطعة عند وصولها','الاستبدال بيتحسب فورًا، والاسترجاع المالي بيتم في ٥ إلى ٧ أيام عمل'],
-               en:[''Submit your request on the site with your order number and reason'
-','We review it and contact you to schedule pickup','The item is inspected on arrival','Exchanges ship immediately, refunds are issued within 5–7 business days']}},
+               en:['Submit your request on the site with your order number and reason','We review it and contact you to schedule pickup','The item is inspected on arrival','Exchanges ship immediately, refunds are issued within 5–7 business days']}},
     {t:'p',v:{ar:'ملحوظة: في حالة عيب في التصنيع بنتحمّل مصاريف الشحن بالكامل.',
               en:'Note: in case of a manufacturing defect, we cover the full shipping cost.'}},
     {t:'btn',v:{ar:'ابدأ طلب استرجاع أو استبدال',en:'Start a return or exchange'},href:'returns.html'}
