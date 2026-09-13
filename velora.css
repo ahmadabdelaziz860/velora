@@ -373,17 +373,18 @@ h1,h2,h3,h4{margin:0;font-weight:500;letter-spacing:-.015em}
   display:grid;grid-template-columns:repeat(5,1fr);
   padding:8px 6px;
 }
-.bnav button{position:relative;display:grid;place-items:center;padding:2px 0;color:var(--ink);transition:transform var(--t-fast)}
-.bnav button:active{transform:scale(.9)}
+.bnav__in>*{position:relative;display:grid;place-items:center;padding:2px 0;color:var(--ink);transition:transform var(--t-fast)}
+.bnav__in>*:active{transform:scale(.9)}
 .bnav .ic{
   width:46px;height:38px;border-radius:var(--r-sm);display:grid;place-items:center;
   color:var(--ink);opacity:.62;transition:background var(--t),color var(--t),opacity var(--t)
 }
 .bnav .ic svg{width:24px;height:24px}
-.bnav button:hover .ic{opacity:1;background:var(--sand)}
-.bnav button.on .ic{background:var(--ink);color:var(--cream);opacity:1}
+.bnav__in>*:hover .ic{opacity:1;background:var(--sand)}
+.bnav__in>.on .ic{background:var(--ink);color:var(--cream);opacity:1}
 .bnav .badge{border-color:var(--cream-2);top:0;inset-inline-end:6px}
-.bnav button.on .badge{background:var(--gold);color:var(--ink)}
+.bnav__in>.on .badge{background:var(--gold);color:var(--ink)}
+
 
 /* ============================================================
    Sheets
