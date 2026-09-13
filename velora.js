@@ -902,3 +902,10 @@ V.api = {
 };
 emit('velora:ready', { lang, cur:curr });
 })();
+(() => {
+  const fix = () => document.querySelectorAll('a[href*="p=returns"]')
+    .forEach(a => a.setAttribute('href','returns.html'));
+  document.addEventListener('velora:ready', fix);
+  document.addEventListener('DOMContentLoaded', fix);
+  fix();
+})();
