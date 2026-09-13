@@ -1185,7 +1185,7 @@ h1,h2,h3,h4{margin:0;font-weight:500;letter-spacing:-.015em}
 .acc-side{display:none}
 #accBtnTop{display:none}
 @media (min-width:1024px){
-  #accBtnTop{display:inline-flex}
+    #accBtnTop{display:grid;place-items:center}
   .pg-wrap{padding:44px 24px 80px}
   .pg-title{font-size:37px}
   .ret-wrap{padding:40px 24px 80px}
