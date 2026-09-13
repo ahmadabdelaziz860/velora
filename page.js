@@ -142,9 +142,7 @@ returns:{
                en:['Send us your order number and the reason on WhatsApp','We review it and contact you to schedule pickup','The item is inspected on arrival','Exchanges ship immediately, refunds are issued within 5–7 business days']}},
     {t:'p',v:{ar:'ملحوظة: في حالة عيب في التصنيع بنتحمّل مصاريف الشحن بالكامل.',
               en:'Note: in case of a manufacturing defect, we cover the full shipping cost.'}},
-    {t:'wabtn',v:{ar:'ابدأ طلب استرجاع أو استبدال',en:'Start a return or exchange'},
-     msg:{ar:'السلام عليكم، عايز أطلب استرجاع أو استبدال لأوردر رقم: ',
-          en:'Hi! I would like to request a return or exchange for order number: '}}
+    {t:'btn',v:{ar:'ابدأ طلب استرجاع أو استبدال',en:'Start a return or exchange'},href:'returns.html'}
   ]
 },
 
