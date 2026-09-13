@@ -138,8 +138,9 @@ returns:{
     {t:'ul',v:{ar:['القطعة تكون بحالتها الأصلية وغير مستخدمة ومعاها التاج','الملابس الداخلية والأقراط لا تُسترجع لأسباب صحية','القطع المخفّضة بنسبة كبيرة يتم استبدالها فقط','لازم يكون معاك فاتورة الأوردر أو رقمه'],
                en:['The item is unused, in original condition, with tags attached','Underwear and earrings are non-returnable for hygiene reasons','Heavily discounted items are eligible for exchange only','The order invoice or order number is required']}},
     {t:'h',v:{ar:'إزاي بيحصل',en:'How it works'}},
-    {t:'ul',v:{ar:['تبعتلنا رقم الأوردر وسبب الاسترجاع على واتساب','بنراجع الطلب ونتواصل معاك لتحديد ميعاد الاستلام','بيتم فحص القطعة عند وصولها','الاستبدال بيتشحن فورًا، والاسترجاع المالي بيتم في ٥ لـ ٧ أيام عمل'],
-               en:['Send us your order number and the reason on WhatsApp','We review it and contact you to schedule pickup','The item is inspected on arrival','Exchanges ship immediately, refunds are issued within 5–7 business days']}},
+    {t:'ul',v:{ar:['تقدّم طلب الاسترجاع من الموقع برقم الأوردر وسبب الاسترجاع','بنراجع الطلب ونتواصل معاك لتحديد ميعاد الاستلام','يتم فحص القطعة عند وصولها','الاستبدال بيتحسب فورًا، والاسترجاع المالي بيتم في ٥ إلى ٧ أيام عمل'],
+               en:[''Submit your request on the site with your order number and reason'
+','We review it and contact you to schedule pickup','The item is inspected on arrival','Exchanges ship immediately, refunds are issued within 5–7 business days']}},
     {t:'p',v:{ar:'ملحوظة: في حالة عيب في التصنيع بنتحمّل مصاريف الشحن بالكامل.',
               en:'Note: in case of a manufacturing defect, we cover the full shipping cost.'}},
     {t:'btn',v:{ar:'ابدأ طلب استرجاع أو استبدال',en:'Start a return or exchange'},href:'returns.html'}
