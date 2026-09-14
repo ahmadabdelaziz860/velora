@@ -909,3 +909,4 @@ emit('velora:ready', { lang, cur:curr });
   document.addEventListener('DOMContentLoaded', fix);
   fix();
 })();
+setTimeout(function(){ document.body.classList.remove('lang-swap'); }, 800);
