@@ -55,7 +55,8 @@ body{
   padding-bottom:calc(var(--nav-h) + var(--safe-b) + 8px);
   opacity:1;transition:opacity .26s ease;
 }
-body.lang-swap{opacity:0}
+body.lang-swap{ animation:lang-swap-out .26s ease forwards }
+@keyframes lang-swap-out{ from{opacity:1} to{opacity:0} }
 body.no-scroll{overflow:hidden}
 img{display:block;max-width:100%;background:#f3ece9}
 button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer}
